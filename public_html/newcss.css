@@ -1,0 +1,105 @@
+
+/* 
+    Created on : 7-Nov-2015, 6:25:17 PM
+    Author     : hai
+*/
+
+body {
+	font-family: arial,sans-serif;
+	background-color: #333333;
+}
+
+header {
+	background-color: black;
+	color: white;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid;
+	border-color: #cccccc;
+	overflow: hidden;
+	padding: 10px;
+}
+
+#header-title {
+	width: 70%;
+	float: left;
+}
+
+#header-title h1 {
+	padding-top: 0px;
+	line-height: 1em;
+}
+
+#header-title h2 {
+	text-transform: uppercase;
+	padding-top: 0px;
+	line-height: 1em;
+}
+
+figure img {
+	margin: 10px;
+	float: left;
+	box-shadow: 6px 6px 4px 1px #333333;
+}
+
+section {
+	background-color: #999999;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid;
+	border-color: #cccccc;
+	padding: 10px;
+}
+
+figure {
+	overflow: auto;
+	padding: 10px;
+}
+
+figure figcaption {
+	margin: 10px;
+}
+nav {
+	float: right;
+	width: 30%;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	float: right;
+	margin: 4px;
+}
+
+p {
+	margin: 10px;
+}
+
+footer {
+	overflow: hidden;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ccccff;
+	padding: 10px;
+	border: solid;
+	border-color: #cccccc;
+}
+
+aside {
+	width: 80%;
+	background-color: #ffffcc;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 0.8em;
+	padding: 10px;
+	border: 2px solid #666600;
+	border-radius: 5px;
+}
+footer small {
+	float: left;
+}
