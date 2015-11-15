@@ -26,6 +26,37 @@ and open the template in the editor.
 			</nav>
 		</header>
 		<section>
+			<form id="myForm" method="POST" action="">
+				<p><label>Enter your email: <input id="e-mail" type="email"></label>
+				<p><label>Enter your birth date: <input id="birthday" type="date"></label>
+				<p><label>Have you eaten today: <input id="eaten" type="checkbox"></label>
+				<fieldset >
+					<legend>Select your spice level</legend>
+					<label><input name="spice" type="radio" value="hot">Hot</label>
+					<label><input name="spice" type="radio" checked value="medium">Medium</label>
+					<label><input name="spice" type="radio" value="mild">Mild</label>
+				</fieldset>
+				<p>
+					<label>Select your favourite city
+						<select name="city" id="city">
+							<option value="ottawa">Ottawa</option>
+							<option value="ny">New York</option>
+							<option selected value="paris">Paris</option>
+						</select>
+					</label>
+				</p>
+				<p>
+					<label>Enter your instruction
+						<textarea id="x" name="instruction">What's is?</textarea>
+					</label>
+				</p>
+				<p>
+					<input type="submit" value="Commit">
+					<input type="reset" value="CLear">
+				</p>
+			</form>
+		</section>
+		<section>
 			<h1>Section 1</h1>
 			<article>
 				<h2>Article 1</h2>
@@ -35,11 +66,11 @@ and open the template in the editor.
 				</p>
 				<p>This is another paragraph</p>
 				<ol>
-					<li>Item A</li>
-					<li>Item B</li>
-					<li>Item C</li>
-					<li>Item D</li>
-					<li>Item E</li>
+					<li value="5">Item A</li>
+					<li value="4">Item B</li>
+					<li value="3">Item C</li>
+					<li value="2">Item D</li>
+					<li value="1">Item E</li>
 				</ol>
 				Test before figure asjdhkl asd lkjalskdjalsjd lasj dlaksjdl ajs
 				Test before figure asjdhkl asd lkjalskdjalsjd lasj dlaksjdl ajs
@@ -71,6 +102,52 @@ and open the template in the editor.
 		<hr>
 		<section>
 			<h1>Section 2</h1>
+			This is a test with the DL list element.
+			<dl>The DL
+				<dt>The DT1</dt>
+				<dd>The DD1.1
+				<dd>The DD1.2
+				<dd>The DD1.3
+				<dt>The DT2</dt>
+				<dd>The DD2.1
+				<dd>The DD2.2
+				<dd>The DD2.3
+			</dl>
+			<hr>
+			Test on table
+			<table>
+				<thead>
+					<tr>
+						<th>A</th>
+						<th>B</th>
+						<th>C</th>
+					</tr>
+					<tr>
+						<th>A1</th>
+						<th>B1</th>
+						<th>C2</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>X</th>
+						<td>123</td>
+						<td>qeqweqwe</td>
+					</tr>
+					<tr>
+						<th>Y</th>
+						<td>222</td>
+						<td>fsasa gdffgs</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th>CCC</th>
+						<td>asdasda</td>
+						<td>sdfgsuty</td>
+					</tr>
+				</tfoot>
+			</table>
 			<aside>
 				This is an aside mate. Blagh a;sdj;alks jdlasj daskdj alsjd
 				This is an aside mate. Blagh a;sdj;alks jdlasj daskdj alsjd
